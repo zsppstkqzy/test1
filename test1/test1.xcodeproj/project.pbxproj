@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6744AF30204578BF00F804DB /* XMGRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6744AF2F204578BF00F804DB /* XMGRemotePlayer.m */; };
+		674AE2B02045A71B008F4BC2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674AE2AE2045A71B008F4BC2 /* SecondViewController.m */; };
+		674AE2B12045A71B008F4BC2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674AE2AF2045A71B008F4BC2 /* SecondViewController.xib */; };
 		67ADA64520451F3000A9D8ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ADA64420451F3000A9D8ED /* AppDelegate.m */; };
 		67ADA64820451F3000A9D8ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ADA64720451F3000A9D8ED /* ViewController.m */; };
 		67ADA64B20451F3000A9D8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ADA64920451F3000A9D8ED /* Main.storyboard */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6744AF2E204578BF00F804DB /* XMGRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGRemotePlayer.h; path = "../../AVPlayer封装使用/AVPlayer封装使用/XMGRemotePlayer.h"; sourceTree = "<group>"; };
+		6744AF2F204578BF00F804DB /* XMGRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGRemotePlayer.m; path = "../../AVPlayer封装使用/AVPlayer封装使用/XMGRemotePlayer.m"; sourceTree = "<group>"; };
+		674AE2AD2045A71B008F4BC2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		674AE2AE2045A71B008F4BC2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		674AE2AF2045A71B008F4BC2 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		67ADA64020451F3000A9D8ED /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67ADA64320451F3000A9D8ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67ADA64420451F3000A9D8ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,8 +68,13 @@
 			children = (
 				67ADA64320451F3000A9D8ED /* AppDelegate.h */,
 				67ADA64420451F3000A9D8ED /* AppDelegate.m */,
+				6744AF2E204578BF00F804DB /* XMGRemotePlayer.h */,
+				6744AF2F204578BF00F804DB /* XMGRemotePlayer.m */,
 				67ADA64620451F3000A9D8ED /* ViewController.h */,
 				67ADA64720451F3000A9D8ED /* ViewController.m */,
+				674AE2AD2045A71B008F4BC2 /* SecondViewController.h */,
+				674AE2AE2045A71B008F4BC2 /* SecondViewController.m */,
+				674AE2AF2045A71B008F4BC2 /* SecondViewController.xib */,
 				67ADA64920451F3000A9D8ED /* Main.storyboard */,
 				67ADA64C20451F3000A9D8ED /* Assets.xcassets */,
 				67ADA64E20451F3000A9D8ED /* LaunchScreen.storyboard */,
@@ -129,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674AE2B12045A71B008F4BC2 /* SecondViewController.xib in Resources */,
 				67ADA65020451F3000A9D8ED /* LaunchScreen.storyboard in Resources */,
 				67ADA64D20451F3000A9D8ED /* Assets.xcassets in Resources */,
 				67ADA64B20451F3000A9D8ED /* Main.storyboard in Resources */,
@@ -142,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6744AF30204578BF00F804DB /* XMGRemotePlayer.m in Sources */,
+				674AE2B02045A71B008F4BC2 /* SecondViewController.m in Sources */,
 				67ADA64820451F3000A9D8ED /* ViewController.m in Sources */,
 				67ADA65320451F3000A9D8ED /* main.m in Sources */,
 				67ADA64520451F3000A9D8ED /* AppDelegate.m in Sources */,
